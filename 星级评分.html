@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- 引入css样式 -->
+        <link rel="stylesheet" href="../starRate/iconfont.css">
+        <!-- 引入星星css样式 -->
+        <link rel="stylesheet" href="../../css/starRate.css">
+    </head>
+    <body>
+
+        <div class="box">
+
+        </div>
+        <!--  引入js -->
+        <script src="../../js/jquery-1.11.0.js"></script>
+        <script src="../../js/startRate.js"></script>
+        <script>
+            $(function(){
+            var star=createStarRate(3.7);
+               $('.box').html(star);
+             //扩展
+            //  $('.box').createStarRate(3.6)
+            })
+            
+        </script>
+    </body>
+</html>
